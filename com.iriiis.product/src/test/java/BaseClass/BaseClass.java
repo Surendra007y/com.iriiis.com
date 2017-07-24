@@ -11,12 +11,14 @@ import com.iriiis.product.com.iriiis.product.LoginPage;
 
 import Utilities.BrowserFactory;
 
-public class BaseClass {
+public class BaseClass 
+{
 	public WebDriver driver;
 	private LoginPage loginPage;
 
 	@BeforeClass
-	public void SetupApplication() {
+	public void SetupApplication()
+	{
 		Reporter.log("=====Browser Session Started=====", true);
 		driver = BrowserFactory.startbrowser("Chrome", "https://iriiis.com/#!/auth");
 		// Created page object using page factory

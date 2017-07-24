@@ -45,7 +45,8 @@ public class ProfilePage
 	@CacheLookup
 	WebElement Capture_InvalidPassword;
 
-	public void clickprofileicon() {
+	public void clickprofileicon() 
+	{
 		ProfileIcon.click();
 
 	}
