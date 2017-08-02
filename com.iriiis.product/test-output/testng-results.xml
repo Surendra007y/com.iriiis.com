@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57384" started-at="2017-08-02T09:36:29Z" finished-at="2017-08-02T09:37:27Z">
+  <suite name="Default suite" duration-ms="99609" started-at="2017-08-02T11:50:24Z" finished-at="2017-08-02T11:52:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57384" started-at="2017-08-02T09:36:29Z" finished-at="2017-08-02T09:37:27Z">
-      <class name="TestCases.ChangePassowrdTesting">
-        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="SetupApplication" is-config="true" duration-ms="22046" started-at="2017-08-02T15:06:29Z" finished-at="2017-08-02T15:06:51Z">
+    <test name="Default test" duration-ms="99609" started-at="2017-08-02T11:50:24Z" finished-at="2017-08-02T11:52:03Z">
+      <class name="TestCases.TestGoogleDriveIntegration">
+        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:TestCases.TestGoogleDriveIntegration@224edc67]" name="SetupApplication" is-config="true" duration-ms="21988" started-at="2017-08-02T17:20:24Z" finished-at="2017-08-02T17:20:46Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -26,18 +26,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- SetupApplication -->
-        <test-method status="PASS" signature="Changepassword()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="Changepassword" duration-ms="33533" started-at="2017-08-02T15:06:51Z" description="Changing the User Password" finished-at="2017-08-02T15:07:25Z">
+        <test-method status="PASS" signature="IntegrationVerification()[pri:0, instance:TestCases.TestGoogleDriveIntegration@224edc67]" name="IntegrationVerification" duration-ms="75429" started-at="2017-08-02T17:20:46Z" finished-at="2017-08-02T17:22:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Changepassword -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="closeApplication" is-config="true" duration-ms="1750" started-at="2017-08-02T15:07:25Z" finished-at="2017-08-02T15:07:27Z">
+        </test-method> <!-- IntegrationVerification -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:TestCases.TestGoogleDriveIntegration@224edc67]" name="closeApplication" is-config="true" duration-ms="2137" started-at="2017-08-02T17:22:01Z" finished-at="2017-08-02T17:22:03Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- TestCases.ChangePassowrdTesting -->
+      </class> <!-- TestCases.TestGoogleDriveIntegration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

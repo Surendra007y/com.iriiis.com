@@ -1,6 +1,5 @@
 package TestCases;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -13,8 +12,8 @@ public class ChangePassowrdTesting extends BaseClass
 
 	@Test(description = "Changing the User Password")
 	public void Changepassword() throws Exception {
-		String user = "sivagami";
-		String oldPassword = "msd@12345";
+		String user = "rudra";
+		String oldPassword = "msd@1234";
 		login(user, oldPassword);
 		ProfilePage profilePage = PageFactory.initElements(driver, ProfilePage.class);
 		profilePage.clickprofileicon();
@@ -22,7 +21,8 @@ public class ChangePassowrdTesting extends BaseClass
 		//System.out.println("profile clicked");
 		try {
 			Thread.sleep(5000);
-		} catch (InterruptedException e) {
+		} catch (InterruptedException e) 
+		{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
@@ -30,7 +30,7 @@ public class ChangePassowrdTesting extends BaseClass
 		// Calling the change password page method
 
 		ChangePasswordPage obj = PageFactory.initElements(driver, ChangePasswordPage.class);
-		String newpsd = "msd@1234";
+		String newpsd = "msd@12345";
 		obj.EnterDetails(oldPassword, newpsd);
 		System.out.println("Password Reset Successfull");
 		profilePage.clickprofileicon();

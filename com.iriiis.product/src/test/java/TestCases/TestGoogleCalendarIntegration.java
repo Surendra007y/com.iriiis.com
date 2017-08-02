@@ -25,7 +25,6 @@ public class TestGoogleCalendarIntegration extends TestIntegration
 		ing.Next();
 		ing.Gmailpassword("msd@12345");
 		ing.Next1();
-		
 	}
 
 	@Override

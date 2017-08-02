@@ -23,7 +23,12 @@ public class TestOnedriveIntegration extends TestIntegration
 	
 		ing.OnedriveUnameCredentials("dhonisuri@outlook.com");
 		ing.OnedriveNext();
-		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		ing.OnedrivepsdCredentials("msd@1234");
 	}
 
@@ -32,7 +37,7 @@ public class TestOnedriveIntegration extends TestIntegration
 	{
 	ing.DoucmentsTab();
 	try {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

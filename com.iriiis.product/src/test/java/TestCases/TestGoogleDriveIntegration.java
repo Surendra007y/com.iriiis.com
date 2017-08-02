@@ -30,6 +30,12 @@ public class TestGoogleDriveIntegration extends TestIntegration
 	public void selectAccount() 
 	{
 		ing.DoucmentsTab();
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		ing.GoogleDocsIcon();
 	}
 
