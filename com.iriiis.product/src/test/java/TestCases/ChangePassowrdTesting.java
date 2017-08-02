@@ -8,13 +8,12 @@ import com.iriiis.product.com.iriiis.product.ChangePasswordPage;
 import com.iriiis.product.com.iriiis.product.ProfilePage;
 
 import BaseClass.BaseClass;
-
 public class ChangePassowrdTesting extends BaseClass 
 {
 
 	@Test(description = "Changing the User Password")
 	public void Changepassword() throws Exception {
-		String user = "ziva1";
+		String user = "sivagami";
 		String oldPassword = "msd@12345";
 		login(user, oldPassword);
 		ProfilePage profilePage = PageFactory.initElements(driver, ProfilePage.class);

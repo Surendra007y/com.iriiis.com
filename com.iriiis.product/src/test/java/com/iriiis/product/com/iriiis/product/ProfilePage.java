@@ -60,7 +60,7 @@ public class ProfilePage
 		}
 		String username = profileName.getText();
 		System.out.println("The user name is " + username);
-		assertEquals(username, "ziva1@iriiis.com");
+		assertEquals(username, "sivagami@iriiisdev.com");
 
 	}
 

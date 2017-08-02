@@ -1,6 +1,5 @@
 package com.iriiis.product.com.iriiis.product;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -83,7 +82,7 @@ WebDriver driver;
 		contact_Text.isDisplayed();
 		System.out.println("Contact is diplayed");
 		notes_Welcometext.isDisplayed();
-		System.out.println("Notes welocme text is diplayed");
+		System.out.println("Notes welcome text is diplayed");
 		System.out.println("Provision is successfull");
 		
 	}

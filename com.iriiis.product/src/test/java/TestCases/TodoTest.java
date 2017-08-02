@@ -11,9 +11,9 @@ public class TodoTest extends BaseClass
 	@Test
 	public void Todo_validation() throws Exception
 	{
-	login("ziva1", "msd@12345");
+	login("sivagami", "msd@1234");
 	CreateTodo	Taskobj=PageFactory.initElements(driver, CreateTodo.class);
-    Taskobj.TodoDetails("PLANET OF THE APES", "SOON IN TO CINEMAS", "sawood.pasha@iriiis.com");
+    Taskobj.TodoDetails("PLANET OF THE APES", "SOON IN TO CINEMAS", "rudra@iriiisdev.com");
    
     }
 }

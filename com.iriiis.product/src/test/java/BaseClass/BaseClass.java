@@ -5,6 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 import com.iriiis.product.com.iriiis.product.ChangePasswordPage;
 import com.iriiis.product.com.iriiis.product.LoginPage;
@@ -20,7 +21,7 @@ public class BaseClass
 	public void SetupApplication()
 	{
 		Reporter.log("=====Browser Session Started=====", true);
-		driver = BrowserFactory.startbrowser("Chrome", "https://iriiis.com/#!/auth");
+		driver = BrowserFactory.startbrowser("Chrome", "https://iriiisdev.com/#!/auth");
 		// Created page object using page factory
 		Reporter.log("=====Application Started=====", true);
 	}
@@ -36,7 +37,7 @@ public class BaseClass
 	{
 		return loginPage;
 	}
-
+	
 	@AfterClass
 	public void closeApplication()
 	{

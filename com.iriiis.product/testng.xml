@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="TestCases.ChangePassowrdTesting"/>
+      <class name="TestCases.TestOutlookIntegration"/>
+      <class name="TestCases.TestOnedriveIntegration"/>
+      <class name="TestCases.TestDropboxIntegartion"/>
+      <class name="TestCases.TestGoolgeProfileIntegration"/>
+      <class name="TestCases.TestGoogleDriveIntegration"/>
+      <class name="TestCases.TestGmailIntegration"/>
+      <class name="TestCases.TestGoogleCalendarIntegration"/>
+      <class name="TestCases.TestBoxIntegration"/>
+      <class name="TestCases.VerifyValidLogin"/>
+      <class name="TestCases.TestGoogleContactIntegration"/>
+      <class name="TestCases.TodoTest"/>
+      <class name="TestCases.SignupTestcase"/>
+      <class name="TestCases.TestEvernoteIntegration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

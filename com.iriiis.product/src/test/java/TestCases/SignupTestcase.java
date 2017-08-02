@@ -16,7 +16,7 @@ public class SignupTestcase extends BaseClass
 	public void Signup_Validation() throws Exception
 	{
 		Signup signupobj =PageFactory.initElements(driver, Signup.class);
-		signupobj.Signup_Details("MsDhoni", "Mahi", "zivadhoni2104", "dhonisuri1990+00000000012@gmail.com", "msd@1234");
+		signupobj.Signup_Details("MsDhoni", "Mahi", "zivadhoni21041", "dhonisuri1990+0000000000012@gmail.com", "msd@1234");
 		Thread.sleep(3000);
 		ProfilePage profilePage1 = PageFactory.initElements(driver, ProfilePage.class);
 		profilePage1.clickprofileicon();

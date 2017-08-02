@@ -11,12 +11,12 @@
       <![CDATA[=====Browser Session End=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36652" started-at="2017-07-24T07:39:29Z" finished-at="2017-07-24T07:40:06Z">
+  <suite name="Default suite" duration-ms="57384" started-at="2017-08-02T09:36:29Z" finished-at="2017-08-02T09:37:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36652" started-at="2017-07-24T07:39:29Z" finished-at="2017-07-24T07:40:06Z">
-      <class name="TestCases.SignupTestcase">
-        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:TestCases.SignupTestcase@77cd7a0]" name="SetupApplication" is-config="true" duration-ms="17977" started-at="2017-07-24T13:09:29Z" finished-at="2017-07-24T13:09:47Z">
+    <test name="Default test" duration-ms="57384" started-at="2017-08-02T09:36:29Z" finished-at="2017-08-02T09:37:27Z">
+      <class name="TestCases.ChangePassowrdTesting">
+        <test-method status="PASS" signature="SetupApplication()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="SetupApplication" is-config="true" duration-ms="22046" started-at="2017-08-02T15:06:29Z" finished-at="2017-08-02T15:06:51Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -26,18 +26,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- SetupApplication -->
-        <test-method status="PASS" signature="Signup_Validation()[pri:0, instance:TestCases.SignupTestcase@77cd7a0]" name="Signup_Validation" duration-ms="15607" started-at="2017-07-24T13:09:47Z" finished-at="2017-07-24T13:10:03Z">
+        <test-method status="PASS" signature="Changepassword()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="Changepassword" duration-ms="33533" started-at="2017-08-02T15:06:51Z" description="Changing the User Password" finished-at="2017-08-02T15:07:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Signup_Validation -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:TestCases.SignupTestcase@77cd7a0]" name="closeApplication" is-config="true" duration-ms="3021" started-at="2017-07-24T13:10:03Z" finished-at="2017-07-24T13:10:06Z">
+        </test-method> <!-- Changepassword -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:TestCases.ChangePassowrdTesting@4c70fda8]" name="closeApplication" is-config="true" duration-ms="1750" started-at="2017-08-02T15:07:25Z" finished-at="2017-08-02T15:07:27Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session End=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- TestCases.SignupTestcase -->
+      </class> <!-- TestCases.ChangePassowrdTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
